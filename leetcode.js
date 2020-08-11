@@ -31,8 +31,6 @@ var myPow2 = function(x, n) {
  * "abaccdeff" -> b
  */
 
-
-
 const firstUniqChar = function(s) {
   const strLength = s.length;
   for (let i = 0; i < strLength; i++) {
@@ -50,3 +48,7 @@ const firstUniqChar = function(s) {
 }
 
 console.log('firstUniqChar', firstUniqChar('abaccdeff'));
+
+
+// [1,6,5,9,11,-5] 找出和为6的多个数的序列？
+
